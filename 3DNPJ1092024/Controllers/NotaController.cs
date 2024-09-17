@@ -14,6 +14,7 @@ namespace _3DNPJ1092024.Controllers
         // GET: api/notas
         [HttpGet]
         [AllowAnonymous]
+
         public IEnumerable<Nota> Get()
         {
             return notas;
